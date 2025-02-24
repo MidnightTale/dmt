@@ -1,3 +1,4 @@
+#![windows_subsystem = "windows"]
 use futures_util::{SinkExt, StreamExt};
 use serde_json::Value;
 use tokio_tungstenite::connect_async;
